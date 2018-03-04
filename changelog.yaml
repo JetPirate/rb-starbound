@@ -1,0 +1,8 @@
+---
+- :version: 0.1.0
+  :date: 2018-03-04
+  :changes:
+    - Support YAML output
+    - Supports save files parsing
+    - Initial version
+...
