@@ -4,6 +4,7 @@ require 'clamp'
 require 'rbstarbound/exit_codes'
 require 'rbstarbound/commands/dump'
 require 'rbstarbound/commands/serialize'
+require 'rbstarbound/commands/export'
 
 module RBStarbound
   class MainCommand < Clamp::Command
@@ -18,5 +19,8 @@ module RBStarbound
     subcommand 'serialize',
                'serialize a player save file form a formatted file',
                RBStarbound::SerializeCommand
+    subcommand 'export',
+               'extract all the files from a .pak file',
+               RBStarbound::ExportCommand
   end
 end

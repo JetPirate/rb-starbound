@@ -5,6 +5,7 @@ require 'rbstarbound/exceptions'
 require 'rbstarbound/utils'
 require 'rbstarbound/sbvj01'
 require 'rbstarbound/sbon'
+require 'rbstarbound/sbasset6'
 require 'rbstarbound/exit_codes'
 require 'rbstarbound/main_command'
 

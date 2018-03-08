@@ -1,4 +1,9 @@
 ---
+- :version: 0.3.0
+  :date: 2018-03-08
+  :changes:
+    - 'Feat: new command [export]'
+    - 'Support: extracting .pack files'
 - :version: 0.2.0
   :date: 2018-03-08
   :changes:
