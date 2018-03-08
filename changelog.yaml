@@ -1,8 +1,15 @@
 ---
+- :version: 0.2.0
+  :date: 2018-03-08
+  :changes:
+    - 'Feat: you can now read a save file, modify and save it for in-game use'
+    - 'Support: fetching player data from a valid YAML'
+    - 'Support: CLI with commands (see: rbstarbound --help)'
+    - 'Fix: double values must be double values now'
 - :version: 0.1.0
   :date: 2018-03-04
   :changes:
-    - Support YAML output
-    - Supports save files parsing
-    - Initial version
+    - 'Support: YAML output'
+    - 'Support: save files parsing'
+    - 'Initial version'
 ...

@@ -1,12 +1,5 @@
 #!/usr/bin/env ruby
 
 require 'rbstarbound'
-require 'yaml'
-unless ARGV.count == 2
-  puts 'You need to input file paths'
-  return
-end
-player = RBStarbound.parse_player_save_file(ARGV[0].to_s)
-File.open(ARGV[1].to_s, 'w') do |file|
-  file.write(player['data'].to_yaml)
-end
+
+exit RBStarbound::MainCommand.run || RBStarbound::EX_OK

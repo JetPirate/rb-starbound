@@ -7,11 +7,6 @@ class RBStarboundTest < Minitest::Test
     refute_nil ::RBStarbound::VERSION
   end
 
-  def test_it_does_ping
-    expected_output = "Pong!\n"
-    assert_output(expected_output) { ::RBStarbound.ping }
-  end
-
   def test_it_parses_save_file
     expected_output = 'PlayerEntity'
     output = ::RBStarbound.parse_player_save_file(SAVE_FILE_PATH)['name']

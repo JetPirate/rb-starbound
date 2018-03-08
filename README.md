@@ -9,7 +9,10 @@ Frankly, it's just a ruby version of
 All thanks to
 [blixt](https://github.com/blixt).
 
---------------------------------------------------------------------------------
+Also, see
+[changelog
+](https://github.com/JetPirate/rb-starbound/blob/master/changelog.yaml)
+to know what's new.
 ## Installation
 
 #### I. option
@@ -43,11 +46,16 @@ You just
 
 To get YAML file with all parsed player data:
 
-**Attention: will be changed!**
+    $ ./bin/rbstarbound dump -f yaml -i path/to/save/file -o path/to/output/file
 
-    $ ./bin/rbstarbound path/to/save/file path/to/output/file
+For more see:
 
-... will be added ...
+    $ ./bin/rbstarbound --help
+
+
+with installed as a gem you could use (from any folder):
+
+    $ rbstarbound --help
 
 ### with the gem/library
 
@@ -66,7 +74,8 @@ puts player['data']['identity']['name']
 
 ```
 
-... will be added ...
+For more see:
+https://github.com/JetPirate/rb-starbound/blob/master/examples
 
 --------------------------------------------------------------------------------
 
