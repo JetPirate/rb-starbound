@@ -2,6 +2,6 @@
 
 module RBStarbound
   def self.print_error(error)
-    puts 'An error occured: ' + error.message.split(' @ ').first
+    puts 'An error occured: ' + error.message
   end
 end

@@ -23,7 +23,7 @@ module RBStarbound
   end
 
   def self.dump_player_save_file(path, player_data)
-    save_file = File.open(path, 'w')
+    save_file = File.open(path, 'wb')
     SBVJ01.dump(save_file, player_data)
   rescue StandardError => e
     print_error(e)
